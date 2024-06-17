@@ -1,0 +1,18 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../docs/datasets/wood_defects_1 
+train: images/train # relative train images path
+val:  images/val # images/val relative val images path
+test:  images/test
+
+# Classes
+names:
+  0: Live_Knot
+  1: Dead_Knot
+  2: knot_with_crack
+  3: resin
+  4: Knot_missing
+  5: Crack
+  6: Quartzity
+  7: Marrow
+  8: Blue_Stain
+  9: overgrown
